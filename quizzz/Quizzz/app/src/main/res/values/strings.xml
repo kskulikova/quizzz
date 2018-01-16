@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Recycling quiz</string>
+    <string name="start">Start quiz!</string>
+    <string name="question_one">Q1. What percentage of total waste generated in the EU is represented by municipal waste?</string>
+    <string name="question_two">Q2. What is the estimated amount of municipal waste generated per person in the European Union (EU)?</string>
+    <string name="question_three">Q3. What takes up the greatest share of household waste?</string>
+    <string name="question_four">Q4. How long does it take a plastic bag to fully decompose if left in the environment?</string>
+    <string name="question_five">Q5. Which of the following statements is true?</string>
+    <string name="question_six">Q6. What EU country leads the municipal waste recycling league table?</string>
+    <string name="thanks">Thank you for your interest in this topic!</string>
+    <string name="country">Country name<font size="12"> </font></string>
+    <string name="percentage1">10%</string>
+    <string name="percentage2">50%</string>
+    <string name="percentage3">25%</string>
+    <string name="plastic">Plastic</string>
+    <string name="weight1"> &lt;100 kg</string>
+    <string name="weight2">~ 500 kg</string>
+    <string name="weight3"> &gt; 2 tonnes</string>
+    <string name="paper">Paper and cardboard</string>
+    <string name="wood">Wood</string>
+    <string name="glass">Glass</string>
+    <string name="time1">10-20 years</string>
+    <string name="time2">1000 years</string>
+    <string name="time3">500 years</string>
+    <string name="time4">Might not fully decompose</string>
+    <string name="mount_rumpke_fact">Mount Rumpke, in the United States, is over 300 metres high and created entirely from rubbish</string>
+    <string name="tins_fact">Making one tin from raw materials uses less amount of energy that it takes to recycle 1 tin</string>
+    <string name="glass_fact">Glass can be recycled an unlimited number of times</string>
+</resources>

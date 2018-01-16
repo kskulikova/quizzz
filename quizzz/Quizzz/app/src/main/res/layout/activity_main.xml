@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.android.Recycling quiz.Main2Activity">
+          <TextView
+            android:id="@+id/question_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/question_one"
+            android:textColor="@android:color/black"/>
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/q1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop ="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:orientation="vertical">
+            <RadioButton android:id="@+id/q1_radio_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/percentage1"
+                android:tag="1"/>
+                <!--android:onClick="onRadioButtonClick"/>-->
+            <RadioButton android:id="@+id/q1_radio_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/percentage2"
+                android:tag="0"/>
+            <!--android:onClick="onRadioButtonClick"/>-->
+            <RadioButton android:id="@+id/q1_radio_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/percentage3"
+                android:tag="0"/>
+            <!--android:onClick="onRadioButtonClick"/>-->
+        </RadioGroup>
+
+        <ImageView
+            android:layout_width="48sp"
+            android:layout_height="48sp"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal"
+            android:src ="@drawable/recycling_logo"
+            /><TextView
+            android:id="@+id/question_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/question_two"
+        android:textColor="@android:color/black"/>
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/q2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop ="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:orientation="vertical">
+            <RadioButton android:id="@+id/q2_radio_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weight1"
+                android:tag="0"/>
+            <!--android:onClick="onRadioButtonClick"/>-->
+            <RadioButton android:id="@+id/q2_radio_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weight2"
+                android:tag="1"/>
+                <!--android:onClick="onRadioButtonClick"/>-->
+            <RadioButton android:id="@+id/q2_radio_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weight3"
+                android:tag="0"/>
+                <!--android:onClick="onRadioButtonClick"/>-->
+        </RadioGroup>
+
+        <ImageView
+            android:layout_width="48sp"
+            android:layout_height="48sp"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal"
+            android:src ="@drawable/recycling_logo"
+            /><TextView
+            android:id="@+id/question_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/question_three"
+            android:textColor="@android:color/black"/>
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/q3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop ="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:orientation="vertical">
+            <RadioButton android:id="@+id/q3_radio_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/plastic"
+                android:tag="0"/>
+                <!--android:onClick="onRadioButtonClick"/>-->
+            <RadioButton android:id="@+id/q3_radio_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/glass"
+                android:tag="0"/>
+                <!--android:onClick="onRadioButtonClick"/>-->
+            <RadioButton android:id="@+id/q3_radio_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/paper"
+                android:tag="1"/>
+                <!--android:onClick="onRadioButtonClick"/>-->
+            <RadioButton android:id="@+id/q3_radio_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wood"
+                android:tag="0"/>
+                <!--android:onClick="onRadioButtonClick"/>-->
+        </RadioGroup>
+
+        <ImageView
+            android:layout_width="48sp"
+            android:layout_height="48sp"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal"
+            android:src ="@drawable/recycling_logo"
+            />
+        <TextView
+            android:id="@+id/question_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/question_four"
+            android:textColor="@android:color/black"/>
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/q4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop ="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:orientation="vertical">
+            <RadioButton android:id="@+id/q4_radio_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/time1"
+                android:tag="0"/>
+                <!--android:onClick="onRadioButtonClick"/>-->
+            <RadioButton android:id="@+id/q4_radio_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/time2"
+                android:tag="0"/>
+                <!--android:onClick="onRadioButtonClick"/>-->
+            <RadioButton android:id="@+id/q4_radio_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/time3"
+                android:tag="0"/>
+                <!--android:onClick="onRadioButtonClick"/>-->
+            <RadioButton android:id="@+id/q4_radio_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/time4"
+                android:tag="1"/>
+                <!--android:onClick="onRadioButtonClick"/>-->
+        </RadioGroup>
+        <ImageView
+            android:layout_width="48sp"
+            android:layout_height="48sp"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal"
+            android:src ="@drawable/recycling_logo"
+            />
+        <TextView
+            android:id="@+id/question_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/question_five"
+            android:textColor="@android:color/black"/>
+
+        <CheckBox
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:id="@+id/tins_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tins_fact"
+            android:paddingLeft="16dp"
+            />
+
+        <CheckBox
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:id="@+id/MountRumpke_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mount_rumpke_fact"
+            android:paddingLeft="16dp"
+            />
+        <CheckBox
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:id="@+id/glass_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/glass_fact"
+            android:paddingLeft="16dp"
+            />
+        <ImageView
+            android:layout_width="48sp"
+            android:layout_height="48sp"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal"
+            android:src ="@drawable/recycling_logo"
+            />
+        <TextView
+            android:id="@+id/question_six"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/question_six"
+            android:textColor="@android:color/black"/>
+        <EditText
+            android:id="@+id/input_country"
+            android:layout_width="260sp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:hint="@string/country"
+            android:singleLine="true"
+            android:inputType="textCapWords"
+            android:imeOptions="actionDone"/>
+        <Button
+            android:id="@+id/get_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="get_score"
+            android:text="Get my score!"
+            android:textColor="@android:color/white"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:id="@+id/thanks"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/thanks"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            android:textAllCaps="true" />
+
+
+
+
+</LinearLayout>
+</ScrollView>
